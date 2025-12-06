@@ -29,11 +29,11 @@
             echo "Total = {$total}";
             break;
         case "-":
-            $total = $firstnumber + $secondnumber;
+            $total = $firstnumber - $secondnumber;
             echo "Total = {$total}";
             break;
         case "*":
-            $total = $firstnumber + $secondnumber;
+            $total = $firstnumber * $secondnumber;
             echo "Total = {$total}";
             break;
         case "/":
@@ -41,7 +41,7 @@
                 echo "cannot divide into zero.";
             }
             else{
-                $total = $firstnumber + $secondnumber;
+                $total = $firstnumber / $secondnumber;
                 echo "Total = {$total}";
             }
             break;           
